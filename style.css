@@ -232,7 +232,7 @@ ul>li>a:hover::after {
 }
 
 .slide1 {
-    background: url(../Assets/Property\ 1=Default.png) no-repeat center;
+    background: url("../Assets/Property1Variant3.png") no-repeat center;
 }
 
 .banner-content1 {
@@ -247,7 +247,7 @@ ul>li>a:hover::after {
 }
 
 .slide2 {
-    background: url(../Assets/Property\ 1=Variant2.png) no-repeat center;
+    background: url("../Assets/Property1Variant2.png") no-repeat center;
 }
 
 .banner-content2 {
@@ -266,7 +266,7 @@ ul>li>a:hover::after {
 }
 
 .slide3 {
-    background: url(../Assets/Property\ 1=Variant3.png)no-repeat center;
+    background: url("../Assets/Property1Default.png")no-repeat center;
 }
 
 .banner-content3 {
