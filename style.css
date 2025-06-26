@@ -22,11 +22,40 @@ ul {
     list-style-type: none;
 }
 
-.btn2 {
+/* .btn2 {
   background-color: #122732;
   color: white;
   padding: 18px 35px;
   border-radius: 8px;
+} */
+
+.agent-btn-wrapper {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.btn2 {
+  display: inline-block;
+  background-color: #122732;
+  color: white;
+  padding: 18px 35px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 50px auto 0;
+  max-width: 220px;
+}
+
+.btn2 a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.btn2 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .row {
@@ -331,6 +360,17 @@ ul>li>a:hover::after {
   margin-top: 50px;
 }
 
+.agent .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.agent .col-33 {
+  width: calc(33.333% - 20px);
+}
+
 /* get-the-house */
 .get-the-house {
   padding-bottom: 75px;
@@ -360,6 +400,10 @@ ul>li>a:hover::after {
 .swiper {
   max-width: 100%;
   max-height: 100%;
+}
+
+.testimonial .swiper-slide {
+  padding: 15px; /* optional spacing inside each card */
 }
 
 /* .mySwiper{
@@ -808,25 +852,6 @@ h5 {
   object-fit: contain;
 }
 
-@media screen and (max-width: 576px) {
-
- /* Get The House Section */
-  .get-the-house {
-    padding-bottom: 60px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .col-33,
-  .col-25 {
-    width: 50%;
-    padding: 0 15px;
-  }
-  .col-50 {
-    width: 100%;
-    padding: 0 15px;
-  }
-}
 
 @media screen and (max-width:1400px){
 
@@ -838,62 +863,7 @@ h5 {
     margin-bottom: 40px;
   }
 
-
-  /* footer */
-  hr {
-    margin-block: 40px;
-  }
-  footer p {
-    font-size: 15px;
-  }
-  .add p {
-    max-width: 240px;
-    font-size: 15px;
-  }  /* footer */
-  hr {
-    margin-block: 40px;
-  }
-  footer p {
-    font-size: 15px;
-  }
-  .add p {
-    max-width: 240px;
-    font-size: 15px;
-  }
-  }
-
-  @media screen and (max-width:1400px){
-
-  /* footer */
-  hr {
-    margin-block: 40px;
-  }
-  footer p {
-    font-size: 15px;
-  }
-  .add p {
-    max-width: 240px;
-    font-size: 15px;
-  }  /* footer */
-  hr {
-    margin-block: 40px;
-  }
-  footer p {
-    font-size: 15px;
-  }
-  .add p {
-    max-width: 240px;
-    font-size: 15px;
-  }
-  }
-
-
-
-
-
-@media screen and (max-width:1400px) {
-
-    /* property section */
+   /* property section */
     .card-img>img {
         max-width: 100%;
     }
@@ -912,7 +882,30 @@ h5 {
     .stats {
         gap: 150px;
     }
-}
+
+
+  /* footer */
+  hr {
+    margin-block: 40px;
+  }
+  footer p {
+    font-size: 15px;
+  }
+  .add p {
+    max-width: 240px;
+    font-size: 15px;
+  }  /* footer */
+  hr {
+    margin-block: 40px;
+  }
+  footer p {
+    font-size: 15px;
+  }
+  .add p {
+    max-width: 240px;
+    font-size: 15px;
+  }
+  }
 
 @media screen and (max-width:992px) {
 
@@ -1062,6 +1055,21 @@ h5 {
 
 @media screen and (max-width:576px) {
 
+   .col-33,
+  .col-25 {
+    width: 50%;
+    padding: 0 15px;
+  }
+  .col-50 {
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  /* Get The House Section */
+  .get-the-house {
+    padding-bottom: 60px;
+  }
+
     /* header-section */
     .nav-collapse {
         font-size: 12px;
@@ -1133,11 +1141,8 @@ h5 {
   .testimonial > div > p {
     margin-bottom: 40px;
   }
-}
 
-@media screen and (max-width:576px) {
-
-  .agent > div > .btn {
+   .agent > div > .btn {
     margin-top: 25px;
   }
   .agent-card > p {
@@ -1157,20 +1162,7 @@ h5 {
     padding-bottom: 32px;
   }
 
-}
 
-@media screen and (max-width:576px) {
 
-/* TESTIMONIAL */
-  .testimonial {
-    padding-bottom: 32px;
-  }
-  .testimonial-card p {
-    max-width: 382px;
-    font-size: 13px;
-  }
-  .testimonial-card h3 {
-    margin-block: 8px;
-  }
 
 }
